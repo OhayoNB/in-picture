@@ -1,0 +1,78 @@
+.header {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  color: cornflowerblue;
+}
+
+.main {
+  width: 500px;
+  margin: auto;
+}
+
+.main .image img {
+  width: 500px;
+  border-radius: 5px;
+}
+
+.answers {
+  display: block;
+}
+
+.options {
+  background-color: rgb(200, 250, 123);
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 200px;
+}
+
+.wrong {
+  background-color: rgb(213, 53, 32);
+  color: white;
+  font-size: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 350px;
+  display: none;
+}
+
+.victory {
+  background-color: rgb(36, 161, 105);
+  color: white;
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 150px;
+  display: none;
+}
+
+.restart {
+  background-color: rgb(26, 28, 103);
+  color: white;
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+  border: 2px solid white;
+  border-radius: 20px;
+  width: 200px;
+  cursor: pointer;
+  display: none;
+}
+
+.restart:hover {
+  background-color: rgb(34, 34, 56);
+}
